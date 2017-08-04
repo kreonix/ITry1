@@ -1,0 +1,185 @@
+html { overflow-x:  hidden; }
+#navbar1 {
+  margin: 0;
+  padding: 0;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  list-style-type: none;
+      }
+ #navbar1 li { 
+ 		display: inline; 
+	  }
+ #navbar1 a {
+ 	padding: 5px 40px;
+	text-decoration: none;
+	color:black;
+	font-family: Segoe UI;
+	font-size: 12pt;
+	 }
+ #navbar1 a:hover {
+ 	color:white;
+ 	border-radius: 10px ;
+ 	background-color: #484e56;
+ }	
+ .banner{
+	height: 200px;	
+    background: url("src/1.png") 100% 100% no-repeat; 
+    background-size: cover; 
+	font-family: Segoe UI;
+	font-size: 32px ;
+	height: 500px;
+	color:white;
+ } 
+ .banner .a-banner {
+ 	font-family: Segoe UI;
+	font-size: 19px ;
+	padding: 10px 30px;
+	border-radius: 10px ;
+ 	background-color: #d44d46;
+ 	margin-left: 235px; 
+ 	text-decoration: none;
+ 	color:white;
+ 	letter-spacing: 2px;
+ }
+  .banner .a-banner-text {
+  	margin-top:265px;
+ 	font-family: Segoe UI;
+	font-size: 19px;
+ 	margin-left: 215px; 
+ 	color:white;
+ 	letter-spacing: 3px;
+ }
+
+ .banner .a-banner:hover{
+	color:black;
+ }
+ .banner .text{
+ 	margin-left: 15px;
+ 	margin-top:5px;
+ }
+.radius-border{
+	border-radius: 110px;
+	background-color: #464b52;
+	width: 110px;
+    height: 110px;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+.radius-border:hover{
+	border-radius: 150px;
+	background-color: #464b52;
+}
+.fa-comment{
+	margin-left: 35px;
+	margin-top: 30px;
+	color: white;
+}
+.fa-camera-retro{
+	margin-left: 35px;
+	margin-top: 33px;
+	color: white;
+}
+.fa-gear{
+	margin-left: 37px;
+	margin-top: 33px;
+	color: white;
+}
+.fa-cc-visa{
+	margin-left: 28px;
+	margin-top: 33px;
+	color:white;
+}
+.Text-for-сamera-retro{
+	text-align: center;
+	margin-top: 10px;
+	font-family: Segoe UI;
+	font-size: 16px;
+}
+.Text-for-gear{
+	text-align: center;
+	margin-top: 10px;
+	font-family: Segoe UI;
+	font-size: 16px;
+}
+.Text-for-comment{
+	text-align: center;
+	margin-top: 10px;
+	font-family: Segoe UI;
+	font-size: 16px;
+}
+.Text-for-сc-visa{
+	text-align: center;
+	margin-top: 10px;
+	font-family: Segoe UI;
+	font-size: 16px;
+}
+.hr-red{
+	margin:auto;
+	border:none;
+	color: #d44d46; 
+    background-color: #d44d46;
+    height: 7px;
+    width: 150px;
+    margin-top: 30px;
+    
+}
+.text-banner-order{
+	font-family: Segoe UI;
+	font-size:30px;
+	letter-spacing: 2px;
+	margin-top: 50px;
+	text-align: center;
+	font-weight: bold;
+}
+.border-filler{
+	text-decoration: none;
+	background-color: #faf8f8; 
+	height: 100px;
+	margin-top: 30px;
+}
+.fa-gear:hover{
+-webkit-animation: fa-spin 2s infinite linear;
+animation: fa-spin 2s infinite linear;
+}
+.fa-comment:hover{
+-webkit-animation: fa-spin 2s infinite linear;
+animation: fa-spin 2s infinite linear;
+}
+.fa-camera-retro:hover{
+-webkit-animation: fa-spin 2s infinite linear;
+ animation: fa-spin 2s infinite linear;
+}
+.fa-cc-visa:hover{
+-webkit-animation: fa-spin 2s infinite linear;
+animation: fa-spin 2s infinite linear;
+}
+.display-off{
+	display: none;
+}
+.text-for-canon{
+	font-family: "Segoe UI";
+	font-weight: bold;
+	text-align: center;
+}
+.sell-border{
+	font-family: "Segoe UI";
+	border-radius: 170px ;
+	background-color: #d44d46;
+	margin-top:20px;
+	letter-spacing: 2px;
+	font-weight: bold;
+	color:white;
+	font-size:16px;
+	text-align: center;
+	height: 25px;
+}
+.sell-border .a-border{
+	text-decoration: none;
+	color: white;
+}
+.sell-border .a-border:hover{
+	color: black;
+}
+.sell-border:hover{
+	opacity: 0.5;
+}
